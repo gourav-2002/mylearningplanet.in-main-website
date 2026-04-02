@@ -48,7 +48,7 @@ const StatBox = ({ number, label, suffix = "" }: { number: number, label: string
         let start = 0;
         const end = number;
         const duration = 2000;
-        const increment = end / (duration / 16);
+        const increment = end / (duration / 50);
         const timer = setInterval(() => {
           start += increment;
           if (start >= end) {
@@ -57,7 +57,7 @@ const StatBox = ({ number, label, suffix = "" }: { number: number, label: string
           } else {
             setCount(Math.floor(start));
           }
-        }, 16);
+        }, 50);
       }
     }, { threshold: 0.5 });
 
@@ -108,25 +108,13 @@ const AnimatedBar = ({ height, label, score, delay }: { height: string, label: s
 export default function HomePage() {
   const heroSymbols = [
     { s: '＋', sz: '2rem', t: '10%', l: '5%', d: '0s', dur: '6s', r: '10deg', ty: 'updown' },
-    { s: '－', sz: '1.5rem', t: '20%', l: '80%', d: '1s', dur: '7s', r: '-15deg', ty: 'rotate' },
     { s: '×', sz: '3rem', t: '70%', l: '10%', d: '2s', dur: '8s', r: '20deg', ty: 'drift' },
-    { s: '÷', sz: '2.5rem', t: '80%', l: '85%', d: '0.5s', dur: '5s', r: '-10deg', ty: 'updown' },
     { s: '√', sz: '4rem', t: '15%', l: '45%', d: '1.5s', dur: '9s', r: '5deg', ty: 'rotate' },
     { s: 'π', sz: '2rem', t: '60%', l: '40%', d: '2.5s', dur: '6s', r: '12deg', ty: 'drift' },
     { s: '∑', sz: '3.5rem', t: '40%', l: '90%', d: '3s', dur: '10s', r: '-5deg', ty: 'updown' },
-    { s: '²', sz: '2rem', t: '5%', l: '70%', d: '1.2s', dur: '7s', r: '0deg', ty: 'rotate' },
     { s: '∞', sz: '3rem', t: '50%', l: '5%', d: '2.2s', dur: '9s', r: '-20deg', ty: 'drift' },
-    { s: 'θ', sz: '2.2rem', t: '10%', l: '30%', d: '2.8s', dur: '8s', r: '5deg', ty: 'updown' },
-    { s: '≈', sz: '2.5rem', t: '85%', l: '20%', d: '1.5s', dur: '7s', r: '15deg', ty: 'rotate' },
-    { s: '∫', sz: '3rem', t: '30%', l: '15%', d: '0.8s', dur: '11s', r: '-10deg', ty: 'drift' },
-    { s: '≠', sz: '2rem', t: '45%', l: '60%', d: '1.8s', dur: '7s', r: '25deg', ty: 'updown' },
-    { s: 'Δ', sz: '2.5rem', t: '15%', l: '90%', d: '3.5s', dur: '9s', r: '-10deg', ty: 'rotate' },
-    { s: 'ω', sz: '1.8rem', t: '75%', l: '50%', d: '4s', dur: '6s', r: '5deg', ty: 'drift' },
-    { s: '³', sz: '1.5rem', t: '55%', l: '25%', d: '2.5s', dur: '8s', r: '-5deg', ty: 'updown' },
-    { s: '√', sz: '2.5rem', t: '90%', l: '70%', d: '1s', dur: '10s', r: '10deg', ty: 'rotate' },
-    { s: 'π', sz: '3rem', t: '5%', l: '15%', d: '0s', dur: '12s', r: '-20deg', ty: 'drift' },
-    { s: '∑', sz: '2rem', t: '35%', l: '75%', d: '2s', dur: '7s', r: '15deg', ty: 'updown' },
-    { s: '∞', sz: '2.5rem', t: '65%', l: '10%', d: '3s', dur: '9s', r: '-10deg', ty: 'rotate' },
+    { s: '²', sz: '2rem', t: '5%', l: '70%', d: '1.2s', dur: '7s', r: '0deg', ty: 'rotate' },
+    { s: 'θ', sz: '2.2rem', t: '80%', l: '80%', d: '2.8s', dur: '8s', r: '5deg', ty: 'updown' },
   ];
 
   return (

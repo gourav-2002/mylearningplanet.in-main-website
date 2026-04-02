@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Globe, Instagram, Youtube, Facebook, MessageCircle, Lock, ArrowRight, MapPin, Mail, Phone } from 'lucide-react';
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear(); 
 
   const socialLinks = [
     { icon: <Instagram className="w-5 h-5" />, href: "#", label: "Instagram" },
