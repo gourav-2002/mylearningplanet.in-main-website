@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/privacy-policy',
+    canonical: 'https://www.mylearningplanet.in/privacy-policy',
   },
 
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Learn how My Learning Planet protects your data while providing maths tuition in Gurgaon and structured coaching for students.',
 
-    url: 'https://www.mylearningplanet.com/privacy-policy',
+    url: 'https://www.mylearningplanet.in/privacy-policy',
     type: 'website',
   },
 

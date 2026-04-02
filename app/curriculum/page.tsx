@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/curriculum',
+    canonical: 'https://www.mylearningplanet.in/curriculum',
   },
 
   openGraph: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       'Discover structured maths classes in Gurgaon with a clear curriculum, chapter-wise learning, and support from a trusted maths institute near you.',
 
-    url: 'https://www.mylearningplanet.com/curriculum',
+    url: 'https://www.mylearningplanet.in/curriculum',
     type: 'website',
   },
 

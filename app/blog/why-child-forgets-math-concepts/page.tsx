@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'My Learning Planet'
   ],
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/blog/why-child-forgets-math-concepts',
+    canonical: 'https://www.mylearningplanet.in/blog/why-child-forgets-math-concepts',
   },
 }
 

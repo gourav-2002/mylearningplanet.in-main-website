@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com',
+    canonical: 'https://www.mylearningplanet.in',
   },
 
   openGraph: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
     description: 'Looking for maths tuition near you? Discover structured learning with expert teachers and real progress tracking at My Learning Planet.',
 
-    url: 'https://www.mylearningplanet.com',
+    url: 'https://www.mylearningplanet.in',
     type: 'website',
   },
 

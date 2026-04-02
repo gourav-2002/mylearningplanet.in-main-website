@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/terms-of-service',
+    canonical: 'https://www.mylearningplanet.in/terms-of-service',
   },
 
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Understand the terms and conditions for using My Learning Planet and accessing maths tuition and coaching services in Gurgaon.',
 
-    url: 'https://www.mylearningplanet.com/terms-of-service',
+    url: 'https://www.mylearningplanet.in/terms-of-service',
     type: 'website',
   },
 

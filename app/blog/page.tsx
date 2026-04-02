@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/blog',
+    canonical: 'https://www.mylearningplanet.in/blog',
   },
 
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description:
       'Explore maths tips, guides, and expert strategies to support students in maths classes in Gurgaon with better learning outcomes.',
 
-    url: 'https://www.mylearningplanet.com/blog',
+    url: 'https://www.mylearningplanet.in/blog',
     type: 'website',
   },
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/how-it-works',
+    canonical: 'https://www.mylearningplanet.in/how-it-works',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Explore how our structured learning system makes us one of the best maths coaching options in Gurgaon, with clear steps and consistent progress tracking.',
 
-    url: 'https://www.mylearningplanet.com/how-it-works',
+    url: 'https://www.mylearningplanet.in/how-it-works',
     type: 'website',
   },
 

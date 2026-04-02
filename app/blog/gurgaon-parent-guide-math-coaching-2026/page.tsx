@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'My Learning Planet Gurgaon'
   ],
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/blog/gurgaon-parent-guide-math-coaching-2026',
+    canonical: 'https://www.mylearningplanet.in/blog/gurgaon-parent-guide-math-coaching-2026',
   },
 }
 

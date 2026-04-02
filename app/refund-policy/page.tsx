@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/refund-policy',
+    canonical: 'https://www.mylearningplanet.in/refund-policy',
   },
 
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Understand refund and cancellation terms for maths tuition fees in Gurgaon with My Learning Planet and our structured learning programs.',
 
-    url: 'https://www.mylearningplanet.com/refund-policy',
+    url: 'https://www.mylearningplanet.in/refund-policy',
     type: 'website',
   },
 

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.mylearningplanet.com'
+  const baseUrl = 'https://www.mylearningplanet.in'
   
   const mainRoutes = [
     { path: '', changeFrequency: 'daily' as const, priority: 1.0 },

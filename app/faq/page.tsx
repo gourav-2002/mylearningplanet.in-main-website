@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/faq',
+    canonical: 'https://www.mylearningplanet.in/faq',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Explore answers to common questions about maths coaching in Gurgaon, including classes, curriculum, and maths tuition options near you.',
 
-    url: 'https://www.mylearningplanet.com/faq',
+    url: 'https://www.mylearningplanet.in/faq',
     type: 'website',
   },
 

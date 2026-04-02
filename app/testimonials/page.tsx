@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/testimonials',
+    canonical: 'https://www.mylearningplanet.in/testimonials',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Explore real testimonials from students and parents and discover why we are trusted as one of the best maths tutors in Gurgaon.',
 
-    url: 'https://www.mylearningplanet.com/testimonials',
+    url: 'https://www.mylearningplanet.in/testimonials',
     type: 'website',
   },
 

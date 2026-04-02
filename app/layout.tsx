@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.mylearningplanet.com'),
+  metadataBase: new URL('https://www.mylearningplanet.in'),
   title: 'My Learning Planet',
   description: 'India\'s most structured math learning platform for Classes 6–10.',
 }

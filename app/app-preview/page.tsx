@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/app-preview',
+    canonical: 'https://www.mylearningplanet.in/app-preview',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Join online maths classes in Gurgaon with the My Learning Planet app. Live sessions, structured learning, and real-time progress tracking for students.',
 
-    url: 'https://www.mylearningplanet.com/app-preview',
+    url: 'https://www.mylearningplanet.in/app-preview',
     type: 'website',
   },
 

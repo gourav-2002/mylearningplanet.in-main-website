@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/pricing',
+    canonical: 'https://www.mylearningplanet.in/pricing',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Check transparent maths tuition fees in Gurgaon with flexible plans for online maths classes designed for better learning outcomes.',
 
-    url: 'https://www.mylearningplanet.com/pricing',
+    url: 'https://www.mylearningplanet.in/pricing',
     type: 'website',
   },
 

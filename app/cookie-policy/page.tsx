@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.mylearningplanet.com/cookie-policy',
+    canonical: 'https://www.mylearningplanet.in/cookie-policy',
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Learn how cookies are used on My Learning Planet to support online maths classes in Gurgaon and maths tuition in Gurgaon for better user experience.',
 
-    url: 'https://www.mylearningplanet.com/cookie-policy',
+    url: 'https://www.mylearningplanet.in/cookie-policy',
     type: 'website',
   },
 
