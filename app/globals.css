@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+
+  --color-primary: #1251AA;
+  --color-navy: #0A1F5E;
+  --color-gold: #F5A623;
+  --color-ice-blue: #EAF1FF;
+  --color-charcoal: #0A1628;
+  --color-slate-gray: #5A6B82;
+  --color-success: #22A05A;
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(var(--tw-rotate, 0deg)); }
+    50% { transform: translateY(-20px) rotate(calc(var(--tw-rotate, 0deg) + 5deg)); }
+  }
+  .animate-float {
+    animation: float linear infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(245, 166, 35, 0.4); }
+    50% { box-shadow: 0 0 20px 10px rgba(245, 166, 35, 0.2); }
+  }
+  .animate-pulse-glow {
+    animation: pulse-glow 3s infinite;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
