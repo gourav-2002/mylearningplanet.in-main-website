@@ -553,7 +553,7 @@ export default function AboutUsPage() {
               <span className="block font-bold italic mb-2">trusted structured math</span>
               <span className="block mb-2">learning platform</span>
               <span className="block relative inline-block">
-                in India.
+                in Gurgaon.
                 <div className="absolute -bottom-2 left-0 w-full h-2 bg-gold/30 rounded-full"></div>
               </span>
             </h2>

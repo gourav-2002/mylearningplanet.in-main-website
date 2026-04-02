@@ -169,7 +169,7 @@ export default function HomePage() {
               </div>
 
               <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-white leading-[1.1] mb-8 animate-fade-up" style={{ animationDelay: '150ms' }}>
-                <span className="block font-normal">India's Most</span>
+                <span className="block font-normal">Gurgaon's Most</span>
                 <span className="block font-bold relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-white to-white/85">
                   Structured Math
                   <svg className="absolute -bottom-4 left-0 w-full h-4 text-gold animate-draw-line" viewBox="0 0 100 10" preserveAspectRatio="none">

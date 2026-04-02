@@ -761,7 +761,7 @@ export default function AppPreviewPage() {
             <FeatureCard icon={Bell} title="Instant Notifications" desc="Test results, weekly reports, class reminders — parents and students are always in the loop." index={1} />
             <FeatureCard icon={Download} title="Offline Notes Access" desc="Download notes and cheat sheets for offline access — continue learning anytime with our online maths tutor in Gurgaon, even without internet." index={2} />
             <FeatureCard icon={Lock} title="Secure and Private" desc="All data encrypted. Student information protected. Parents control account access completely." index={3} />
-            <FeatureCard icon={Zap} title="Blazing Fast" desc="Lightweight apps built for Indian network conditions — smooth even on 4G connections." index={4} />
+            <FeatureCard icon={Zap} title="Blazing Fast" desc="Lightweight apps built for Gurgaon network conditions — smooth even on 4G connections." index={4} />
             <FeatureCard icon={RefreshCw} title="Always Up to Date" desc="New features and improvements are released regularly — making our online maths tutor in Gurgaon app better every month." index={5} />
           </div>
         </div>

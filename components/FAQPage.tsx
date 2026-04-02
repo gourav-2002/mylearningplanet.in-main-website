@@ -76,7 +76,7 @@ const FAQ_ITEMS: FAQItemData[] = [
     category: "📱 Technology",
     categoryColor: "text-navy",
     question: "What devices and internet speed do we need for live classes?",
-    answer: "Any smartphone, tablet, or laptop with a stable internet connection works perfectly for our maths tuition near me classes. We recommend a minimum internet speed of 5 Mbps for smooth video quality — which is standard with most home broadband and 4G connections in India. The Student App works on both Android and iOS. For the best live class experience, a laptop or tablet with a slightly larger screen is ideal, but a smartphone works just as well."
+    answer: "Any smartphone, tablet, or laptop with a stable internet connection works perfectly for our maths tuition near me classes. We recommend a minimum internet speed of 5 Mbps for smooth video quality — which is standard with most home broadband and 4G connections in Gurgaon. The Student App works on both Android and iOS. For the best live class experience, a laptop or tablet with a slightly larger screen is ideal, but a smartphone works just as well."
   },
   {
     category: "💰 Fees and Billing",

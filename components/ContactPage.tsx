@@ -398,7 +398,7 @@ Sector 51, Gurgaon 122003"
                 </div>
                 <div>
                   <h4 className="font-bold text-navy mb-1">Student Success Count</h4>
-                  <p className="text-sm text-slate-gray">Empowering students across India to master mathematics with confidence.</p>
+                  <p className="text-sm text-slate-gray">Empowering students across Gurgaon to master mathematics with confidence.</p>
                 </div>
               </div>
             </motion.div>
@@ -449,7 +449,7 @@ Sector 51, Gurgaon 122003"
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-center md:text-left">
             <h3 className="text-white font-display text-2xl font-bold mb-2">Ready to transform your math skills?</h3>
-            <p className="text-white/60">Join India's most structured math learning platform today.</p>
+            <p className="text-white/60">Join Gurgaon's most structured math learning platform today.</p>
           </div>
           <Link href="/"
             className="bg-gold text-navy px-8 py-4 rounded-full font-bold hover:scale-105 transition-all flex items-center gap-2"
