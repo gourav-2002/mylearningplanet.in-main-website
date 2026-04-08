@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/contact', changeFrequency: 'monthly' as const, priority: 0.8 },
     { path: '/app-preview', changeFrequency: 'monthly' as const, priority: 0.6 },
     { path: '/blog', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { path: '/blog/10-questions-daily-vs-3-hours-study', changeFrequency: 'monthly' as const, priority: 0.9 },
     { path: '/blog/why-child-forgets-math-concepts', changeFrequency: 'monthly' as const, priority: 0.9 },
     { path: '/blog/gurgaon-parent-guide-math-coaching-2026', changeFrequency: 'monthly' as const, priority: 0.9 },
     { path: '/privacy-policy', changeFrequency: 'yearly' as const, priority: 0.3 },

@@ -156,11 +156,42 @@ export default function Blog() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
 
+            {/* Card 3: 10 Questions Daily */}
+            <Link href="/blog/10-questions-daily-vs-3-hours-study" className="group flex flex-col lg:flex-row bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden">
+              <div className="lg:w-2/5 relative min-h-[200px] lg:min-h-full overflow-hidden bg-gradient-to-br from-[#0A1F5E] to-[#1251AA] flex items-center justify-center">
+                <img
+                  src="/10-questions-daily-vs-3-hours-study.webp"
+                  alt="Why Your Child Keeps Forgetting Math Concepts"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="lg:w-3/5 p-6 md:p-8 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-2 text-[#5A6B82] text-[10px] font-bold uppercase tracking-tight mb-3">
+                    <span>April 8, 2026</span>
+                    <span className="text-[#F5A623]">•</span>
+                    <div className="flex items-center gap-1">
+                      <Clock className="w-3 h-3" /> 6 min read
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl md:text-2xl text-[#0A1F5E] font-bold mb-3 leading-tight group-hover:text-[#1251AA] transition-colors line-clamp-2">
+                    Why Solving 10 Questions Daily Beats 3 Hours of Cramming
+                  </h3>
+                  <p className="text-[#5A6B82] text-sm leading-relaxed mb-6 line-clamp-3 font-sans">
+                    Struggling with 10th CBSE maths? Daily practice beats marathon study sessions — here's the science behind it and a practical plan to follow.
+                  </p>
+                </div>
+                <div className="text-[#1251AA] text-xs font-bold flex items-center gap-1 uppercase group-hover:gap-2 transition-all">
+                  Read More <ArrowRight className="w-3 h-3" />
+                </div>
+              </div>
+            </Link>
+
             {/* Card 1: Why Child Forgets Math Concepts */}
             <Link href="/blog/why-child-forgets-math-concepts" className="group flex flex-col lg:flex-row bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden">
               <div className="lg:w-2/5 relative min-h-[200px] lg:min-h-full overflow-hidden">
                 <img
-                  src="/why-child-forgets-math-concepts.jpg"
+                  src="/why-child-forgets-math-concepts.webp"
                   alt="Why Your Child Keeps Forgetting Math Concepts"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -193,7 +224,7 @@ export default function Blog() {
             <Link href="/blog/gurgaon-parent-guide-math-coaching-2026" className="group flex flex-col lg:flex-row bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden">
               <div className="lg:w-2/5 relative min-h-[200px] lg:min-h-full overflow-hidden">
                 <img
-                  src="/gurgaon-parent-guide-math-coaching-2026.jpg"
+                  src="/gurgaon-parent-guide-math-coaching-2026.webp"
                   alt="The Gurgaon Parent's Guide"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

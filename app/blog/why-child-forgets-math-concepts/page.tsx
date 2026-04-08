@@ -74,7 +74,7 @@ export default function BlogPost() {
 
               <div className="w-full rounded-2xl overflow-hidden shadow-2xl mb-12">
                 <img
-                  src="/why-child-forgets-math-concepts.jpg"
+                  src="/why-child-forgets-math-concepts.webp"
                   alt="Math concept illustration"
                   className="w-full h-full"
                 />
@@ -93,7 +93,7 @@ export default function BlogPost() {
                 The human brain doesn't retain information just because it was taught once. Memory consolidation requires spaced repetition, retrieval practice, and connected learning. Most coaching centres teach a topic, move on, and never return to it systematically. This creates what learning scientists call the "forgetting curve" — knowledge decays rapidly without reinforcement.
               </p>
 
-              <p>
+              <p className='mt-4'>
                 When there's no fixed roadmap, no weekly revision plan, and no assessment tied back to previous concepts, students build knowledge on sand. Each new chapter feels disconnected from the last.
               </p>
 

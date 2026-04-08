@@ -74,7 +74,7 @@ export default function GurgaonParentGuide() {
               {/* Image Placeholder matching the first blog post update */}
               <div className="w-full rounded-2xl overflow-hidden shadow-2xl mb-12">
                 <img
-                  src="/gurgaon-parent-guide-math-coaching-2026.jpg"
+                  src="/gurgaon-parent-guide-math-coaching-2026.webp"
                   alt="Parents discussing education options"
                   className="w-full h-full"
                 />
@@ -94,7 +94,7 @@ export default function GurgaonParentGuide() {
                 The post-COVID coaching landscape in Gurgaon has changed dramatically. Parents today are more aware, more demanding, and less willing to pay for coaching that doesn't show measurable results. At the same time, a new generation of structured, tech-enabled platforms has emerged — offering something traditional coaching centres never could: full transparency into what your child is learning, week by week.
               </p>
 
-              <p>
+              <p className='mt-4'>
                 The challenge is knowing how to separate genuine quality from good marketing. Any centre can promise "best results" and "expert faculty." Very few can show you a structured weekly curriculum, a parent dashboard, and consistent assessment data before you even enroll.
               </p>
 
@@ -151,7 +151,7 @@ export default function GurgaonParentGuide() {
                 The best math coaching in Gurgaon in 2026 is not about the fanciest classroom or the most Instagram-worthy study centre. It is about systems. A pre-defined curriculum. Weekly tests. Monthly evaluations. A parent dashboard that shows you exactly where your child stands — not just "doing well" or "needs improvement" but actual data, actual topics, actual trends.
               </p>
 
-              <p>
+              <p className='mt-4'>
                 When a centre invests in building these systems, it signals something important: they are accountable to outcomes, not just attendance.
               </p>
 
