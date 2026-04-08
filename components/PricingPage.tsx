@@ -208,10 +208,10 @@ export default function PricingPage() {
                 {/* Left Side */}
                 <div className="lg:col-span-7 space-y-8">
                   <div className="space-y-2">
-                    <span className="text-slate-gray text-xs uppercase tracking-widest font-bold">Monthly Subscription</span>
+                    <span className="text-slate-gray text-xs uppercase tracking-widest font-bold">Starting Monthly Subscription</span>
                     <div className="flex items-baseline gap-1">
                       <span className="font-display text-3xl text-primary font-bold">₹</span>
-                      <span className="font-display text-6xl md:text-7xl text-navy font-bold tracking-tighter">4,000</span>
+                      <span className="font-display text-6xl md:text-7xl text-navy font-bold tracking-tighter">4,000*</span>
                       <span className="text-slate-gray font-medium">/month</span>
                     </div>
                     <div className="inline-flex items-center gap-2 bg-[#EDFBF3] text-success px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
